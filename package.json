@@ -1,0 +1,62 @@
+{
+    "name": "bms",
+    "version": "1.0.0",
+    "description": "This is Board Management System Microservice of NodeJS stack. This is used to access boards.",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=development node src/index",
+        "test": "npm test"
+    },
+    "dependencies": {
+        "@hapi/joi": "^17.1.0",
+        "axios": "^0.19.2",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "bunyan": "^1.8.5",
+        "chalk": "^4.1.0",
+        "config": "^3.3.1",
+        "connect-mongo": "^2.0.1",
+        "cors": "^2.8.4",
+        "crypto": "^1.0.1",
+        "dotenv": "^8.2.0",
+        "dotenv-expand": "^5.0.0",
+        "execa": "^5.0.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "express-session": "^1.15.6",
+        "http": "0.0.1-security",
+        "http-status": "^1.4.0",
+        "jest": "^26.6.3",
+        "jsonschema": "^1.2.6",
+        "jsonwebtoken": "^7.4.3",
+        "mongoose": "^5.5.2",
+        "mongoose-update-if-current": "^1.3.3",
+        "passport": "^0.4.0",
+        "passport-jwt": "^3.0.0",
+        "querystring": "^0.2.0",
+        "swagger-jsdoc": "^4.0.0",
+        "swagger-parser": "^9.0.1",
+        "swagger-ui-express": "^4.1.4",
+        "webpack": "^5.11.1",
+        "webpack-cli": "^4.3.0",
+        "webpack-version-file-plugin": "^0.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jatin345Anand/BMS.git"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "mongo",
+        "multer",
+        "ejs",
+        "server-side-rendering"
+    ],
+    "author": "Jatin Anand",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jatin345Anand/BMS/issues"
+    },
+    "homepage": "https://github.com/Jatin345Anand/BMS#readme"
+}

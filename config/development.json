@@ -1,0 +1,18 @@
+{
+    "dbConfig": {
+        "hostUri": "mongodb://localhost:27017/medpiperdb?authSource=admin"
+    },
+
+    "log": {
+        "level": "debug",
+        "service": "BMS Service"
+    },
+    "JWT_SECRET": "r(-g@sk-AR(-dgeuvll@otp0ery$er^ic%",
+    "PASSPHRASE": "RGK9876543!",
+    "SESSION_SECRET": "regask-software",
+    "TOKEN_EXPIRY": 43200,
+    "NOTIFICATION_ENDPOINT": "https://dev-beta.regask.com:6080/v1/nms/notification",
+    "CERT_PATH": "/home/rskdevadm/SSL-RSK-18JUN20.pfx",
+    "REGASK_URL": "https://dev-beta.regask.com",
+    "APP_URL": ["https://dev-beta.regask.com", "http://localhost:4040"]
+}
